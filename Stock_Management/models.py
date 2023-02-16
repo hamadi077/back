@@ -49,7 +49,6 @@ class StockEntrant(models.Model):
     produits=models.ForeignKey(Produit, on_delete=models.CASCADE)
     quantite = models.IntegerField( )
     prix=models.FloatField()
-    date = models.DateField(auto_now_add=True)
     # user=models.ForeignKey(User, on_delete=models.CASCADE)
 
 

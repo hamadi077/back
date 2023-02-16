@@ -78,15 +78,11 @@ WSGI_APPLICATION = 'Gestion_Stock.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-       'NAME':'db',
-       'HOST': '127.0.0.1',
-       'USER':'root',
-       'PASSWORD':'',
-       'PORT':'3306',
-       'OPTIONS': {
-            'charset': 'utf8mb4',
-            'use_unicode': True,
-        },
+        'NAME':'db',
+        'USER':'dah',
+        'PASSWORD':'1234',
+        'PORT':'5433'
+      
     }
 }
 
